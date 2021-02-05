@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <com.dolphkon.scanlib.view.ScannerView
+            android:id="@+id/mScanview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/iv_camera"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/dp_8"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/camera_switch"
+        android:layout_marginRight="@dimen/dp_20"
+        android:visibility="gone"
+        android:layout_height="wrap_content"></ImageView>
+
+
+</RelativeLayout>

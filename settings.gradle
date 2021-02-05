@@ -1,2 +1,3 @@
 rootProject.name='scanlib'
 include ':app'
+include ':scanlibrary'

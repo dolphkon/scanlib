@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="scannerview_frame">#ff000000</color>
+    <color name="scannerview_laser">#ffff0000</color>
+    <color name="scannerview_mask">#60000000</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="tv_whtie">#ffffffff</color>
+    <color name="common_tv_black">#333333</color>
+    <color name="common_tv_gray">#a3a3a3</color>
+    <color name="dividerline">#FFE8E8E8</color>
+    <color name="common_tv_gold">#d9af5c</color>
+    <string name="customui_cancel">取消</string>
+    <string name="customui_ensure">确定</string>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--title-->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="common_background_gray">#f5f5f5</color>
+    <color name="transparent">#00000000</color>
+</resources>
